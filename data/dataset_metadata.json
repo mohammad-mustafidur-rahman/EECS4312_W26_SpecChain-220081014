@@ -1,0 +1,8 @@
+{
+  "app_name": "Mind Doc",
+  "app_id": "de.moodpath.android",
+  "dataset_size_raw": 3000,
+  "collection_method": "Scraped via Python 'google-play-scraper' library, sorted by NEWEST, from the Canadian region store.",
+  "cleaning_decisions": "Removed duplicates and reviews under 3 words. Removed emojis, special characters (non-ASCII), and punctuation. Converted all numbers to string representations. Lowercased text, normalized whitespace, removed NLTK English stop words, and applied WordNet lemmatization.",
+  "date_collected": "2026-03-21"
+}
