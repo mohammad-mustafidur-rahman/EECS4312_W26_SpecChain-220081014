@@ -1,22 +1,49 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Global User Gia",
+      "description": "An international student who finds mental health terminology difficult to translate.",
       "derived_from_group": "G1",
-      "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
-      "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
-      "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
-      "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
-      "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+      "goals": ["Change app language settings", "Understand emotional definitions in native tongue"],
+      "pain_points": ["Locked language settings", "Contextually poor translations"],
+      "context": "Using the app in a non-English speaking region."
+    },
+    {
+      "id": "P2",
+      "name": "Clinical Client Chris",
+      "description": "A therapy patient who uses logs to guide professional consultations.",
+      "derived_from_group": "G2",
+      "goals": ["Export notes for doctors", "Reference symptom patterns during therapy"],
+      "pain_points": ["Difficulty sharing data with professionals", "Forgetting specific triggers"],
+      "context": "Active clinical therapy sessions."
+    },
+    {
+      "id": "P3",
+      "name": "Budget Tracker Brian",
+      "description": "A user looking for free mental health resources without recurring costs.",
+      "derived_from_group": "G3",
+      "goals": ["Access core tracking features for free", "Avoid intrusive commercial prompts"],
+      "pain_points": ["Hidden paywalls", "Aggressive subscription marketing"],
+      "context": "Managing mental health on a fixed income."
+    },
+    {
+      "id": "P4",
+      "name": "Pattern Seeker Pam",
+      "description": "A data-driven user who wants to visualize long-term mental health trends.",
+      "derived_from_group": "G4",
+      "goals": ["View monthly mood charts", "Identify trigger patterns"],
+      "pain_points": ["Unclear data visualizations", "Limited historical view in free tier"],
+      "context": "Self-monitoring for long-term improvement."
+    },
+    {
+      "id": "P5",
+      "name": "Minimalist Mike",
+      "description": "A user who values simplicity and speed in their daily wellness routine.",
+      "derived_from_group": "G5",
+      "goals": ["Log mood in under 10 seconds", "Navigate app without confusion"],
+      "pain_points": ["Cluttered UI", "Too many questions during logging"],
+      "context": "Quick check-ins during a busy workday."
+    }
+  ]
+}

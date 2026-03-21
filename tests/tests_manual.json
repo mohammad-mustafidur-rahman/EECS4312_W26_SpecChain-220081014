@@ -1,16 +1,144 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
-      "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
-      "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
-      ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "test_id": "T_01_A",
+      "requirement_id": "FR_01",
+      "scenario": "Verify language change to Spanish",
+      "steps": ["Go to Settings", "Select Language", "Select Spanish"],
+      "expected_result": "App labels change from 'Settings' to 'Ajustes'."
+    },
+    {
+      "test_id": "T_01_B",
+      "requirement_id": "FR_01",
+      "scenario": "Verify persistent language settings",
+      "steps": ["Change language to Spanish", "Close App", "Restart App"],
+      "expected_result": "App remains in Spanish upon restart."
+    },
+    {
+      "test_id": "T_02_A",
+      "requirement_id": "FR_02",
+      "scenario": "PDF Generation for Therapy",
+      "steps": ["Navigate to Insights", "Click Export for Doctor", "Open generated file"],
+      "expected_result": "A readable PDF with a mood chart is displayed."
+    },
+    {
+      "test_id": "T_02_B",
+      "requirement_id": "FR_02",
+      "scenario": "Empty Data Export Prevention",
+      "steps": ["Login with new account", "Attempt Doctor Export"],
+      "expected_result": "Error message indicating 'Not enough data to export'."
+    },
+    {
+      "test_id": "T_03_A",
+      "requirement_id": "FR_03",
+      "scenario": "Premium Visibility for Free User",
+      "steps": ["Login as Free User", "View Dashboard"],
+      "expected_result": "Premium modules display a lock icon."
+    },
+    {
+      "test_id": "T_03_B",
+      "requirement_id": "FR_03",
+      "scenario": "Accessing Locked Feature",
+      "steps": ["Login as Free User", "Tap a locked module"],
+      "expected_result": "Subscription upsell screen is presented."
+    },
+    {
+      "test_id": "T_04_A",
+      "requirement_id": "FR_04",
+      "scenario": "Verify 30-day chart rendering",
+      "steps": ["Go to Insights tab", "Select Monthly View"],
+      "expected_result": "Line graph displays 30 distinct data points."
+    },
+    {
+      "test_id": "T_04_B",
+      "requirement_id": "FR_04",
+      "scenario": "Verify trigger pattern text",
+      "steps": ["Scroll below chart in Insights"],
+      "expected_result": "List of 'Top Triggers' (e.g., Sleep, Work) is shown."
+    },
+    {
+      "test_id": "T_05_A",
+      "requirement_id": "FR_05",
+      "scenario": "Logging speed test",
+      "steps": ["Start on Home screen", "Tap 'Mood' button", "Select score", "Tap Save"],
+      "expected_result": "User returns to dashboard within 3 clicks."
+    },
+    {
+      "test_id": "T_05_B",
+      "requirement_id": "FR_05",
+      "scenario": "Frictionless skip for optional fields",
+      "steps": ["Tap Mood", "Tap Save immediately"],
+      "expected_result": "Mood is saved successfully without requiring note entry."
+    },
+    {
+      "test_id": "T_06_A",
+      "requirement_id": "FR_06",
+      "scenario": "Note saving validation",
+      "steps": ["Log mood", "Type 'Rough morning' in notes", "Save"],
+      "expected_result": "History view shows 'Rough morning' attached to the entry."
+    },
+    {
+      "test_id": "T_06_B",
+      "requirement_id": "FR_06",
+      "scenario": "Long note support",
+      "steps": ["Log mood", "Type 500 characters in notes", "Save"],
+      "expected_result": "Note is saved and readable in history."
+    },
+    {
+      "test_id": "T_07_A",
+      "requirement_id": "FR_07",
+      "scenario": "Offline logging verification",
+      "steps": ["Enable Airplane Mode", "Log mood", "Check History"],
+      "expected_result": "Entry exists with an 'Offline/Sync Pending' indicator."
+    },
+    {
+      "test_id": "T_07_B",
+      "requirement_id": "FR_07",
+      "scenario": "Background sync on internet restore",
+      "steps": ["Disable Airplane Mode", "Wait 10 seconds"],
+      "expected_result": "Offline indicator disappears as data syncs."
+    },
+    {
+      "test_id": "T_08_A",
+      "requirement_id": "FR_08",
+      "scenario": "Verify Lifetime option exists",
+      "steps": ["Open Premium settings", "Inspect pricing table"],
+      "expected_result": "A 'One-time Payment' option is visible."
+    },
+    {
+      "test_id": "T_08_B",
+      "requirement_id": "FR_08",
+      "scenario": "Lifetime purchase access",
+      "steps": ["Purchase Lifetime", "Navigate to premium content"],
+      "expected_result": "All lock icons are removed permanently."
+    },
+    {
+      "test_id": "T_09_A",
+      "requirement_id": "FR_09",
+      "scenario": "Tooltip trigger",
+      "steps": ["Open assessment course", "Tap underlined word 'Cognitive'"],
+      "expected_result": "Popup box explains the meaning of 'Cognitive'."
+    },
+    {
+      "test_id": "T_09_B",
+      "requirement_id": "FR_09",
+      "scenario": "Tooltip dismissal",
+      "steps": ["Open Tooltip", "Tap background"],
+      "expected_result": "Tooltip closes and returns to course text."
+    },
+    {
+      "test_id": "T_10_A",
+      "requirement_id": "FR_10",
+      "scenario": "Apply 'Work' tag filter",
+      "steps": ["Go to History", "Select Filter", "Select 'Work'"],
+      "expected_result": "Only logs tagged as 'Work' are visible."
+    },
+    {
+      "test_id": "T_10_B",
+      "requirement_id": "FR_10",
+      "scenario": "Clear filter results",
+      "steps": ["Select 'Work' filter", "Select 'Clear All'"],
+      "expected_result": "Full, unfiltered mood history is restored."
     }
   ]
 }

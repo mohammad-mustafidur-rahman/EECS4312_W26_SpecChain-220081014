@@ -38,4 +38,8 @@ def fetch_minddoc_reviews():
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     fetch_minddoc_reviews()
+=======
+    fetch_minddoc_reviews()
+>>>>>>> 81cdb4d (Saving local work before syncing with GitHub)

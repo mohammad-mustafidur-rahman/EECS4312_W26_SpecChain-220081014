@@ -2,11 +2,33 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
-      "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
-      ]
+      "theme": "Internationalization and Language Support",
+      "review_ids": ["4c647c1c-6e45-442c-a691-42ee61a230a1", "7d8e4a8f-8468-4809-aa92-29643791977e", "42ec88b7-ead2-421f-b753-f5d071afa0a0", "11eaf701-f192-4fe1-b934-82fc5aae67d1", "6f006dd6-ee8c-44db-b8c8-2b5ad3570d1c", "744404cb-b45b-4d48-a82d-aad7f42ecb69", "b9ef6b5a-632b-495a-9e62-969a23fae1d0", "827abad8-c21a-4f99-b1d6-f1c8dced667c", "3bc9f848-fdd6-4fbc-9c95-83d022623b5c", "f3d3b5d7-cde8-45b6-8f9a-09cbfb3b7a7d"],
+      "example_reviews": ["good app cannot change te language", "Depth cheep commercial like advice u may different opinion"]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Clinical and Therapeutic Utility",
+      "review_ids": ["11eaf701-f192-4fe1-b934-82fc5aae67d1", "b9ef6b5a-632b-495a-9e62-969a23fae1d0", "89f457e0-90a6-4570-955a-696bce251acd", "e45752e5-ba84-41b6-be18-d6a920a2f523", "bbb31449-236a-4773-87be-97b1b0c64a8d", "ed0e8b18-21ec-4b65-a47e-feead6b8cd87", "becdaea2-c8f7-41c9-a504-e7727dc8c328", "75bf3047-c5e8-4c3f-a0cf-8f1453ae9e09", "014e7949-fa7e-4897-98fd-b228f6eeebb7", "ac523545-bdc5-4534-a6eb-ab964539907e"],
+      "example_reviews": ["App helped understand symptom pattern making easier navigate mental health", "Used note app guide discussion doctor"]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Subscription Costs and Monetization",
+      "review_ids": ["6f006dd6-ee8c-44db-b8c8-2b5ad3570d1c", "f3d3b5d7-cde8-45b6-8f9a-09cbfb3b7a7d", "7af7329a-d6ad-4ccc-aa83-689da8e7eda3", "c61692d1-a80d-49e1-b541-8b37b2d3f7aa", "89f457e0-90a6-4570-955a-696bce251acd", "7c1a1116-284a-4c13-a6b7-a280d0f18b9e", "e45752e5-ba84-41b6-be18-d6a920a2f523", "a360c212-f023-438c-991b-a3f28f3dd7ba", "7e59f4ee-e0c3-4213-9bb1-6f2d7b5deb9c", "a01eb69d-877f-4ec3-8ada-e94608e0f2fd"],
+      "example_reviews": ["App great completely free check mood", "Expensive subscription for premium features"]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Mood Pattern Tracking and Visualization",
+      "review_ids": ["11eaf701-f192-4fe1-b934-82fc5aae67d1", "6f006dd6-ee8c-44db-b8c8-2b5ad3570d1c", "744404cb-b45b-4d48-a82d-aad7f42ecb69", "25942a27-320a-4e7e-a7b4-3153bd5b405f", "b69f4ef9-7d53-4e38-817e-9e506d787b03", "7af7329a-d6ad-4ccc-aa83-689da8e7eda3", "e45752e5-ba84-41b6-be18-d6a920a2f523", "e43cabdd-bfdf-412d-a5b5-c9bcc761aab2", "6845c4de-e79c-4502-a20c-1ee0489bbb7e", "e57fd9ce-d1b7-4829-8e28-ad2b3566f789"],
+      "example_reviews": ["Visualize mood patterns over time", "Insightful charts helped me understand my triggers"]
+    },
+    {
+      "group_id": "G5",
+      "theme": "User Interface Simplicity and Accessibility",
+      "review_ids": ["11eaf701-f192-4fe1-b934-82fc5aae67d1", "25942a27-320a-4e7e-a7b4-3153bd5b405f", "c61692d1-a80d-49e1-b541-8b37b2d3f7aa", "89f457e0-90a6-4570-955a-696bce251acd", "7c1a1116-284a-4c13-a6b7-a280d0f18b9e", "8d328b9d-9b41-4bfc-a52f-24f5ac10f6b1", "3d61709a-0872-45b0-a4d8-27d8db423c5a", "becdaea2-c8f7-41c9-a504-e7727dc8c328", "8a4f00c5-1f58-4bee-a59f-9f99821c47cb", "affef279-7511-46e8-b4e4-8f9cc6da0a2b"],
+      "example_reviews": ["Clean and easy to use interface", "Simple powerful tool truly supports professional care"]
     }
-  ]}
+  ]
+}
