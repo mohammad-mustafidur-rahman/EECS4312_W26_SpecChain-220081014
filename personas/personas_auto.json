@@ -1,0 +1,74 @@
+{
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Alex",
+      "description": "Alex is a user who values a seamless app experience and is looking for an app that is easy to use and provides helpful insights.",
+      "derived_from_group": "A1",
+      "goals": [
+        "Easy to use app",
+        "Helpful insights"
+      ],
+      "pain_points": [
+        "Difficulty navigating the app",
+        "Limited functionality"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Mia",
+      "description": "Mia is a user who has struggled with mental health issues and is looking for an app that can provide her with effective tools and resources to manage her mental health.",
+      "derived_from_group": "A2",
+      "goals": [
+        "Effective mental health management",
+        "Supportive community"
+      ],
+      "pain_points": [
+        "Limited access to mental health resources",
+        "Stigma around mental health"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Jake",
+      "description": "Jake is a user who is sensitive about his personal data and is looking for an app that respects his privacy and provides value for money.",
+      "derived_from_group": "A3",
+      "goals": [
+        "Data privacy",
+        "Value for money"
+      ],
+      "pain_points": [
+        "Data breaches",
+        "Expensive subscription models"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Emily",
+      "description": "Emily is a user who has tried various mental health apps and is looking for an app that stands out from the rest and provides unique features and benefits.",
+      "derived_from_group": "A4",
+      "goals": [
+        "Unique features",
+        "Effective mental health management"
+      ],
+      "pain_points": [
+        "Limited features",
+        "Comparison to other apps"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Sarah",
+      "description": "Sarah is a user who is looking for an app that can help her gain a deeper understanding of herself and her emotions, and provide her with tools to improve her mental well-being.",
+      "derived_from_group": "A5",
+      "goals": [
+        "Self-awareness",
+        "Personal growth"
+      ],
+      "pain_points": [
+        "Limited self-awareness",
+        "Difficulty managing emotions"
+      ]
+    }
+  ]
+}

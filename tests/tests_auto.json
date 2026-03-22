@@ -1,15 +1,105 @@
 {
-  "tests": [
+"tests": [
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "scenario": "New user navigates to main features within 2 minutes",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Launch the app for the first time",
+        "Observe the navigation menu",
+        "Access the main features"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The user is able to navigate to the main features within 2 minutes."
+    },
+    {
+      "test_id": "T_auto_2",
+      "requirement_id": "FR_auto_2",
+      "scenario": "User reports reduction in symptoms after using mental health management tools",
+      "steps": [
+        "Use the app's mental health management tools for 2 weeks",
+        "Report symptoms before and after using the tools"
+      ],
+      "expected_result": "The user reports a reduction in symptoms within 2 weeks."
+    },
+    {
+      "test_id": "T_auto_3",
+      "requirement_id": "FR_auto_3",
+      "scenario": "User data is encrypted and stored securely",
+      "steps": [
+        "Use the app and generate personal data",
+        "Verify data encryption and storage"
+      ],
+      "expected_result": "The user's personal data is encrypted and stored securely."
+    },
+    {
+      "test_id": "T_auto_4",
+      "requirement_id": "FR_auto_4",
+      "scenario": "User reports higher satisfaction compared to other mental health apps",
+      "steps": [
+        "Use the app and other mental health apps",
+        "Compare satisfaction levels"
+      ],
+      "expected_result": "The user reports a higher level of satisfaction compared to other apps."
+    },
+    {
+      "test_id": "T_auto_5",
+      "requirement_id": "FR_auto_5",
+      "scenario": "User reports increase in self-awareness within 1 month",
+      "steps": [
+        "Use the app's self-awareness tools for 1 month",
+        "Report self-awareness level before and after using the tools"
+      ],
+      "expected_result": "The user reports an increase in self-awareness within 1 month."
+    },
+    {
+      "test_id": "T_auto_6",
+      "requirement_id": "FR_auto_6",
+      "scenario": "User feels supported and connected within 1 week of joining a community group",
+      "steps": [
+        "Join a community group",
+        "Interact with the community for 1 week"
+      ],
+      "expected_result": "The user reports feeling supported and connected within 1 week."
+    },
+    {
+      "test_id": "T_auto_7",
+      "requirement_id": "FR_auto_7",
+      "scenario": "User feels the app provides value for money",
+      "steps": [
+        "Subscribe to the app",
+        "Evaluate the app's pricing model"
+      ],
+      "expected_result": "The user reports feeling that the app provides value for money."
+    },
+    {
+      "test_id": "T_auto_8",
+      "requirement_id": "FR_auto_8",
+      "scenario": "User feels informed and motivated to improve mental well-being using analytics features",
+      "steps": [
+        "Use the app's analytics features",
+        "Evaluate the insights and motivation gained"
+      ],
+      "expected_result": "The user reports feeling informed and motivated to improve their mental well-being."
+    },
+    {
+      "test_id": "T_auto_9",
+      "requirement_id": "FR_auto_9",
+      "scenario": "User reports higher engagement and satisfaction using unique features",
+      "steps": [
+        "Use the app's unique features",
+        "Evaluate engagement and satisfaction levels"
+      ],
+      "expected_result": "The user reports a higher level of engagement and satisfaction."
+    },
+    {
+      "test_id": "T_auto_10",
+      "requirement_id": "FR_auto_10",
+      "scenario": "User feels confident and comfortable using the app's features",
+      "steps": [
+        "Use the app's features",
+        "Evaluate confidence and comfort level"
+      ],
+      "expected_result": "The user reports feeling confident and comfortable using the app's features."
     }
   ]
 }

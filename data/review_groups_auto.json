@@ -2,11 +2,72 @@
   "groups": [
     {
       "group_id": "A1",
-      "theme": "Workout logging issues",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
+      "theme": "App functionality and user experience",
+      "review_ids": [
+        "4c647c1c-6e45-442c-a691-42ee61a230a1",
+        "7d8e4a8f-8468-4809-aa92-29643791977e",
+        "42ec88b7-ead2-421f-b753-f5d071afa0a0"
+      ],
       "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+        "good app cannot change te language",
+        "im going try hear voice person sometimes mean insulting",
+        "depth cheep commercial like advice u may different openion try see four ur self"
+      ]
+    },
+    {
+      "group_id": "A2",
+      "theme": "Effectiveness and impact on mental health",
+      "review_ids": [
+        "11eaf701-f192-4fe1-b934-82fc5aae67d1",
+        "6f006dd6-ee8c-44db-b8c8-2b5ad3570d1c",
+        "744404cb-b45b-4d48-a82d-aad7f42ecb69"
+      ],
+      "example_reviews": [
+        "started using app back two thousand nineteen still called moodpath app helped understand symptom pattern making easier navigate mental health day day used consistently never came therapy doctor appointment blank mind used note app guide discussion doctor even said made working easier simple powerful tool truly support professional care",
+        "app great completely free check mood answer handful question time day private course look material course follow depending feel need like exhausted want increase strength mentally physically etc highly recommended",
+        "far love app comprehensive insight accurate helpful information well put together application nice work yall"
+      ]
+    },
+    {
+      "group_id": "A3",
+      "theme": "Monetization and subscription model",
+      "review_ids": [
+        "e4bcd851-5bff-4b95-8a03-266541a40ce0",
+        "b69f4ef9-7d53-4e38-817e-9e506d787b03",
+        "a360c212-f023-438c-991b-a3f28f3dd7ba"
+      ],
+      "example_reviews": [
+        "useful better lot apps recommend removed one star info methodology calculating result sufficiently apparent done robustly tested",
+        "really great app unfortunately share device id third party according play optional work offline like idea tracking absolute go apps handle data sensitive",
+        "put result behind paywall using fourteen day thus making useless"
+      ]
+    },
+    {
+      "group_id": "A4",
+      "theme": "Comparison to other mental health resources",
+      "review_ids": [
+        "25942a27-320a-4e7e-a7b4-3153bd5b405f",
+        "e45752e5-ba84-41b6-be18-d6a920a2f523",
+        "7c1a1116-284a-4c13-a6b7-a280d0f18b9e"
+      ],
+      "example_reviews": [
+        "informative embarks one journey self revelation also along way equipping someone factual reference information insight various personal issue endure commonality turn instills someone positivity innate ability growth selfconfidence resolve one go road self acceptance human condition explore trending therapeutic non pharmaceutical treatment lastly unto psychologypsychiatric advice",
+        "disappointing experience mood tracker basic compared multitude apps usp asks question three time day two week end told need consult therapist surprise surprise minddoc recommend one sixty-five per week utterly useless unable afford also uk app designed exploit people mental health fear money",
+        "money grab like rest u dont pay wasting time last four year way better one theere ten time better dont require fit tight budget bad adios amigo good luck journey"
+      ]
+    },
+    {
+      "group_id": "A5",
+      "theme": "Personal growth and self-awareness",
+      "review_ids": [
+        "89f457e0-90a6-4570-955a-696bce251acd",
+        "735dd19a-1b69-4ce1-81a9-77c33b5312d1",
+        "e57fd9ce-d1b7-4829-8e28-ad2b3566f789"
+      ],
+      "example_reviews": [
+        "really helpful edit well using app two week damn never thought would perfect literally best app ever downloaded entire life really help made seriously consider therapist step made pay attention responded question suicidal thought underestimation matter sent therapy rebort based application one hundred realistic",
+        "helpful thoughtful question mental state funny reflecting acknowledging current mental state bring calm",
+        "app help lot keep tracking emotion write feel useful"
       ]
     }
   ]
