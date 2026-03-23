@@ -1,5 +1,9 @@
-# Application: [Calm] 
-- Most important difference between pipelines: [The automated pipeline produced broader personas, while the manual pipeline produced more focused personas grounded in specific review groups.]
-- Most useful pipeline: [The hybrid pipeline produced the most balanced outputs because it preserved automation speed while improving clarity and traceability.] 
-- Most surprising finding: [Several automated requirements were grammatically correct but too vague to support reliable test generation.]
-- Observed weakness in the automated pipeline: [Some personas included unsupported assumptions that were not clearly grounded in the reviews.]
+# Application: MindDoc
+
+- **Most important difference between pipelines:** The automated pipeline produced highly ambiguous, untestable requirements (Ambiguity Ratio: 0.30) with weak traceability. In contrast, the hybrid pipeline enforced strict engineering constraints, resulting in a flawless Ambiguity Ratio of 0.00 and a perfect Traceability Ratio of 1.00 by manually linking specific persona pain points to testable software features.
+
+- **Most useful pipeline:** The hybrid pipeline produced the most balanced and useful outputs. It preserved the speed of automated dataset clustering while allowing human intervention to fix broken traceability IDs, scrub vague adjectives (like "seamless" or "intuitive"), and double the test coverage by injecting negative edge-case scenarios.
+
+- **Most surprising finding:** Several automated requirements were grammatically flawless and sounded highly professional, but were fundamentally useless for software engineering. For example, the AI requested an "increase in self-awareness" or a "seamless interface"—concepts that are entirely subjective and impossible to write concrete acceptance criteria for.
+
+- **Observed weakness in the automated pipeline:** The automated pipeline suffered from low data utilization and severe hallucinations. It achieved a Review Coverage of only 0.0058, effectively ignoring the vast majority of the 2,584 reviews. Furthermore, it invented features that do not exist in the app or the data (such as a "supportive community" forum) while missing critical safety features (like crisis hotlines) that actual users requested.
