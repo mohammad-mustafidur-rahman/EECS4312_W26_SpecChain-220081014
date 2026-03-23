@@ -3,103 +3,102 @@
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR_auto_1",
-      "scenario": "New user navigates to main features within 2 minutes",
+      "scenario": "New user navigates through the app",
       "steps": [
-        "Launch the app for the first time",
-        "Observe the navigation menu",
-        "Access the main features"
+        "Open the app for the first time",
+        "Navigate through the app's main features"
       ],
-      "expected_result": "The user is able to navigate to the main features within 2 minutes."
+      "expected_result": "The user can find and access the main features within 2 minutes."
     },
     {
       "test_id": "T_auto_2",
       "requirement_id": "FR_auto_2",
-      "scenario": "User reports reduction in symptoms after using mental health management tools",
+      "scenario": "User views progress after a week",
       "steps": [
-        "Use the app's mental health management tools for 2 weeks",
-        "Report symptoms before and after using the tools"
+        "Use the app for a week",
+        "View progress"
       ],
-      "expected_result": "The user reports a reduction in symptoms within 2 weeks."
+      "expected_result": "The user receives at least 3 actionable insights and recommendations."
     },
     {
       "test_id": "T_auto_3",
       "requirement_id": "FR_auto_3",
-      "scenario": "User data is encrypted and stored securely",
+      "scenario": "User views subscription options",
       "steps": [
-        "Use the app and generate personal data",
-        "Verify data encryption and storage"
+        "Open the app",
+        "View subscription options"
       ],
-      "expected_result": "The user's personal data is encrypted and stored securely."
+      "expected_result": "The user can choose from at least 2 affordable plans that offer access to premium features."
     },
     {
       "test_id": "T_auto_4",
       "requirement_id": "FR_auto_4",
-      "scenario": "User reports higher satisfaction compared to other mental health apps",
+      "scenario": "User logs in and views data",
       "steps": [
-        "Use the app and other mental health apps",
-        "Compare satisfaction levels"
+        "Log in to the app",
+        "View data"
       ],
-      "expected_result": "The user reports a higher level of satisfaction compared to other apps."
+      "expected_result": "The user's data is encrypted and stored securely."
     },
     {
       "test_id": "T_auto_5",
       "requirement_id": "FR_auto_5",
-      "scenario": "User reports increase in self-awareness within 1 month",
+      "scenario": "User uses emotional tracking feature",
       "steps": [
-        "Use the app's self-awareness tools for 1 month",
-        "Report self-awareness level before and after using the tools"
+        "Use the emotional tracking feature",
+        "Reflect on emotions"
       ],
-      "expected_result": "The user reports an increase in self-awareness within 1 month."
+      "expected_result": "The user can identify at least 2 patterns or trends in their emotions."
     },
     {
       "test_id": "T_auto_6",
       "requirement_id": "FR_auto_6",
-      "scenario": "User feels supported and connected within 1 week of joining a community group",
+      "scenario": "New user completes tutorial",
       "steps": [
-        "Join a community group",
-        "Interact with the community for 1 week"
+        "Open the app for the first time",
+        "Complete tutorial"
       ],
-      "expected_result": "The user reports feeling supported and connected within 1 week."
+      "expected_result": "The user can navigate the app without assistance."
     },
     {
       "test_id": "T_auto_7",
       "requirement_id": "FR_auto_7",
-      "scenario": "User feels the app provides value for money",
+      "scenario": "User views data usage settings",
       "steps": [
-        "Subscribe to the app",
-        "Evaluate the app's pricing model"
+        "View data",
+        "Access data usage settings"
       ],
-      "expected_result": "The user reports feeling that the app provides value for money."
+      "expected_result": "The user can see how their data is being used and opt-out of data sharing."
     },
     {
       "test_id": "T_auto_8",
       "requirement_id": "FR_auto_8",
-      "scenario": "User feels informed and motivated to improve mental well-being using analytics features",
+      "scenario": "User views app features",
       "steps": [
-        "Use the app's analytics features",
-        "Evaluate the insights and motivation gained"
+        "Open the app",
+        "View app features"
       ],
-      "expected_result": "The user reports feeling informed and motivated to improve their mental well-being."
+      "expected_result": "The user can access at least 3 free features and see the additional features available in the premium version."
     },
     {
       "test_id": "T_auto_9",
       "requirement_id": "FR_auto_9",
-      "scenario": "User reports higher engagement and satisfaction using unique features",
+      "scenario": "User views app updates",
       "steps": [
-        "Use the app's unique features",
-        "Evaluate engagement and satisfaction levels"
+        "Use the app for a month",
+        "View app updates"
       ],
-      "expected_result": "The user reports a higher level of engagement and satisfaction."
+      "expected_result": "The user sees at least 2 new features or updates added in the past month."
     },
     {
       "test_id": "T_auto_10",
       "requirement_id": "FR_auto_10",
-      "scenario": "User feels confident and comfortable using the app's features",
+      "scenario": "User views progress after 3 months",
       "steps": [
-        "Use the app's features",
-        "Evaluate confidence and comfort level"
+        "Use the app for 3 months",
+        "View progress"
       ],
-      "expected_result": "The user reports feeling confident and comfortable using the app's features."
+      "expected_result": "The user can see a summary of their progress and reflect on their personal growth over time."
     }
   ]
 }

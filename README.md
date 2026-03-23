@@ -1,33 +1,23 @@
 # EECS4312_W26_SpecChain
 
-## instructions:
-Please update to include: 
-- App name
-- Data collection method
-- Original dataset
-- Final cleaned dataset
-- Exact commands to run pipeline
-
-# example
-Application: [Calm]
+Application: MindDoc: Your Clinical Companion
 
 Dataset:
-- reviews_raw.jsonl contains the collected reviews.
-- reviews_clean.jsonl contains the cleaned dataset.
-- The cleaned dataset contains 842 reviews.
+- Data Collection Method: Automated scraping from the Google Play Store.
+- reviews_raw.jsonl contains the initially collected raw reviews.
+- reviews_clean.jsonl contains the pre-processed and filtered dataset.
+- The cleaned dataset contains 2,584 reviews.
 
 Repository Structure:
-- data/ contains datasets and review groups
-- personas/ contains persona files
-- spec/ contains specifications
-- tests/ contains validation tests
-- metrics/ contains all metric files
-- src/ contains executable Python scripts
-- reflection/ contains the final reflection
+- data/ contains the raw/cleaned datasets and the thematic review group JSON files.
+- personas/ contains the manual, auto, and hybrid persona definitions.
+- spec/ contains the Markdown software requirement specifications.
+- tests/ contains the validation test cases linked to the requirements.
+- metrics/ contains all pipeline metric calculations and the final summary comparison.
+- src/ contains the executable Python scripts for the automated pipeline.
+- reflection/ contains the final Task 8 project reflection.
 
 How to Run:
-1. python src/00_validate_repo.py
-2. python src/02_clean.py
-3. python src/run_all.py
-4. Open metrics/metrics_summary.json for comparison results
-
+1. python3 src/00_validate_repo.py
+2. python3 src/run_all.py
+3. Open metrics/metrics_summary.json to view the pipeline comparison results.

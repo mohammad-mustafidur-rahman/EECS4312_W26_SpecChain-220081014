@@ -33,40 +33,40 @@
       "theme": "Monetization and subscription model",
       "review_ids": [
         "e4bcd851-5bff-4b95-8a03-266541a40ce0",
-        "b69f4ef9-7d53-4e38-817e-9e506d787b03",
+        "7af7329a-d6ad-4ccc-aa83-689da8e7eda3",
         "a360c212-f023-438c-991b-a3f28f3dd7ba"
       ],
       "example_reviews": [
         "useful better lot apps recommend removed one star info methodology calculating result sufficiently apparent done robustly tested",
-        "really great app unfortunately share device id third party according play optional work offline like idea tracking absolute go apps handle data sensitive",
+        "im sure app great mostly locked paid member couldnt get much without paying could potentially used mood tracker much else",
         "put result behind paywall using fourteen day thus making useless"
       ]
     },
     {
       "group_id": "A4",
-      "theme": "Comparison to other mental health resources",
+      "theme": "Data privacy and security concerns",
       "review_ids": [
-        "25942a27-320a-4e7e-a7b4-3153bd5b405f",
-        "e45752e5-ba84-41b6-be18-d6a920a2f523",
-        "7c1a1116-284a-4c13-a6b7-a280d0f18b9e"
+        "b69f4ef9-7d53-4e38-817e-9e506d787b03",
+        "8d328b9d-9b41-4bfc-a52f-24f5ac10f6b1",
+        "fbdbce6a-fe56-4273-a957-af833fce24a7"
       ],
       "example_reviews": [
-        "informative embarks one journey self revelation also along way equipping someone factual reference information insight various personal issue endure commonality turn instills someone positivity innate ability growth selfconfidence resolve one go road self acceptance human condition explore trending therapeutic non pharmaceutical treatment lastly unto psychologypsychiatric advice",
-        "disappointing experience mood tracker basic compared multitude apps usp asks question three time day two week end told need consult therapist surprise surprise minddoc recommend one sixty-five per week utterly useless unable afford also uk app designed exploit people mental health fear money",
-        "money grab like rest u dont pay wasting time last four year way better one theere ten time better dont require fit tight budget bad adios amigo good luck journey"
+        "really great app unfortunately share device id third party according play optional work offline like idea tracking absolute go apps handle data sensitive",
+        "right away requires user account created mandatory term include agree sharing personal health information",
+        "stuck setup possible use anonymously advertised website step three log create account option skip"
       ]
     },
     {
       "group_id": "A5",
       "theme": "Personal growth and self-awareness",
       "review_ids": [
+        "25942a27-320a-4e7e-a7b4-3153bd5b405f",
         "89f457e0-90a6-4570-955a-696bce251acd",
-        "735dd19a-1b69-4ce1-81a9-77c33b5312d1",
         "e57fd9ce-d1b7-4829-8e28-ad2b3566f789"
       ],
       "example_reviews": [
+        "informative embarks one journey self revelation also along way equipping someone factual reference information insight various personal issue endure commonality turn instills someone positivity innate ability growth selfconfidence resolve one go road self acceptance human condition explore trending therapeutic non pharmaceutical treatment lastly unto psychologypsychiatric advice",
         "really helpful edit well using app two week damn never thought would perfect literally best app ever downloaded entire life really help made seriously consider therapist step made pay attention responded question suicidal thought underestimation matter sent therapy rebort based application one hundred realistic",
-        "helpful thoughtful question mental state funny reflecting acknowledging current mental state bring calm",
         "app help lot keep tracking emotion write feel useful"
       ]
     }
