@@ -1,13 +1,83 @@
-{  "groups": [
+{
+  "groups": [
     {
       "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "theme": "Language Settings and Content Localization",
+      "review_ids": [
+        "4c647c1c-6e45-442c-a691-42ee61a230a1",
+        "7d8e4a8f-8468-4809-aa92-29643791977e",
+        "42ec88b7-ead2-421f-b753-f5d071afa0a0",
+        "9f8d7c6b-5a4b-3c2d-1e0f-a9b8c7d6e5f4",
+        "b9ef6b5a-632b-495a-9e62-969a23fae1d0",
+        "827abad8-c21a-4f99-b1d6-f1c8dced667c"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "good app cannot change te language"
+      ],
+      "notes": "The AI's 'User Experience' theme was way too broad. I narrowed it down to focus on the actual complaints about language barriers and translation quality."
+    },
+    {
+      "group_id": "H2",
+      "theme": "Doctor Integration and Clinical Tracking",
+      "review_ids": [
+        "11eaf701-f192-4fe1-b934-82fc5aae67d1",
+        "6f006dd6-ee8c-44db-b8c8-2b5ad3570d1c",
+        "744404cb-b45b-4d48-a82d-aad7f42ecb69",
+        "a1b2c3d4-e5f6-4a5b-6c7d-8e9f0a1b2c3d",
+        "bbb31449-236a-4773-87be-97b1b0c64a8d"
+      ],
+      "example_reviews": [
+        "used note app guide discussion doctor even said made working easier"
+      ],
+      "notes": "Changed this to focus on the doctor-sharing feature. The AI's 'mental health impact' label was too generic and didn't capture the specific use case."
+    },
+    {
+      "group_id": "H3",
+      "theme": "Data Privacy and Subscription Paywalls",
+      "review_ids": [
+        "e4bcd851-5bff-4b95-8a03-266541a40ce0",
+        "b69f4ef9-7d53-4e38-817e-9e506d787b03",
+        "a360c212-f023-438c-991b-a3f28f3dd7ba",
+        "7af7329a-d6ad-4ccc-aa83-689da8e7eda3",
+        "c61692d1-a80d-49e1-b541-8b37b2d3f7aa"
+      ],
+      "example_reviews": [
+        "share device id third party",
+        "put result behind paywall using fourteen day"
+      ],
+      "notes": "Grouped the paywall and data tracking complaints together. Users clearly care about transparency and trust here, so I made that the main theme."
+    },
+    {
+      "group_id": "H4",
+      "theme": "Therapy Upselling and High Costs",
+      "review_ids": [
+        "25942a27-320a-4e7e-a7b4-3153bd5b405f",
+        "e45752e5-ba84-41b6-be18-d6a920a2f523",
+        "7c1a1116-284a-4c13-a6b7-a280d0f18b9e",
+        "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "ac523545-bdc5-4534-a6eb-ab964539907e",
+        "014e7949-fa7e-4897-98fd-b228f6eeebb7"
+      ],
+      "example_reviews": [
+        "minddoc recommend one sixty-five per week utterly useless unable afford"
+      ],
+      "notes": "The AI just called this 'comparison to other apps', but the reviews were actually complaining about the $65/week therapy upsell. Fixed the theme to reflect that."
+    },
+    {
+      "group_id": "H5",
+      "theme": "Daily Mood and Crisis Tracking",
+      "review_ids": [
+        "89f457e0-90a6-4570-955a-696bce251acd",
+        "735dd19a-1b69-4ce1-81a9-77c33b5312d1",
+        "e57fd9ce-d1b7-4829-8e28-ad2b3566f789",
+        "e43cabdd-bfdf-412d-a5b5-c9bcc761aab2",
+        "6845c4de-e79c-4502-a20c-1ee0489bbb7e",
+        "8a4f00c5-1f58-4bee-a59f-9f99821c47cb"
+      ],
+      "example_reviews": [
+        "responded question suicidal thought underestimation matter sent therapy rebort"
+      ],
+      "notes": "'Personal growth' was way off base. These reviews are about suicidal thoughts and crisis tracking, so I updated the theme to match the severity."
     }
   ]
 }

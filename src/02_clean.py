@@ -84,8 +84,4 @@ def main():
     print(f"Cleaning complete. Retained {len(cleaned_reviews)} valid, unique reviews.")
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     main()
-=======
-    main()
->>>>>>> 81cdb4d (Saving local work before syncing with GitHub)

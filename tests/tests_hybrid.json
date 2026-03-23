@@ -1,16 +1,235 @@
 {
   "tests": [
     {
-      "test_id": "T_hybrid_1",
+      "test_id": "T_H1_A",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Verify immediate language change without restart",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Navigate to Settings > Language",
+        "Select 'Spanish'",
+        "Observe main navigation labels"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "Navigation labels update to Spanish immediately.",
+      "notes": "Navigating in 2 mins is too subjective for a test. I changed it to verify the UI language updates immediately."
+    },
+    {
+      "test_id": "T_H1_B",
+      "requirement_id": "FR_hybrid_1",
+      "scenario": "Verify language persistence after app restart",
+      "steps": [
+        "Change language to Spanish",
+        "Force close the app",
+        "Re-open the app"
+      ],
+      "expected_result": "The application remains in Spanish.",
+      "notes": "Added a test to ensure localization settings save permanently to device storage."
+    },
+    {
+      "test_id": "T_H2_A",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "14-day PDF export generation",
+      "steps": [
+        "Navigate to Profile",
+        "Tap 'Export 14-Day Report'",
+        "Open generated file"
+      ],
+      "expected_result": "A PDF file containing a mood graph is opened.",
+      "notes": "Deleted the AI's test about reducing symptoms since that's a medical outcome, not a software test. Testing the PDF export instead."
+    },
+    {
+      "test_id": "T_H2_B",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Handling export with zero data entries",
+      "steps": [
+        "Login with a new empty account",
+        "Tap 'Export 14-Day Report'"
+      ],
+      "expected_result": "An error message 'Not enough data to export' is displayed.",
+      "notes": "Added a negative test case for robust data handling."
+    },
+    {
+      "test_id": "T_H3_A",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Verify third-party tracking opt-out",
+      "steps": [
+        "Navigate to Privacy Settings",
+        "Toggle 'Share Analytics' to OFF",
+        "Monitor outgoing network requests"
+      ],
+      "expected_result": "No data packets are sent to third-party tracking domains.",
+      "notes": "Rewrote this as a proper technical test to verify network requests are actually blocked when the user opts out."
+    },
+    {
+      "test_id": "T_H3_B",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Verify tracking opt-in functionality",
+      "steps": [
+        "Toggle 'Share Analytics' to ON",
+        "Monitor outgoing network requests"
+      ],
+      "expected_result": "Analytics packets are sent to authorized domains.",
+      "notes": "Added to verify the toggle works in both directions."
+    },
+    {
+      "test_id": "T_H4_A",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Access 14-day basic trend on free tier",
+      "steps": [
+        "Log in as a free user with 14 days of data",
+        "Navigate to Insights"
+      ],
+      "expected_result": "The basic line chart is fully visible and not blocked by a paywall.",
+      "notes": "Added a test to explicitly check that free users can actually see their 14-day chart without hitting a paywall."
+    },
+    {
+      "test_id": "T_H4_B",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Verify premium upsell trigger",
+      "steps": [
+        "Log in as free user",
+        "Attempt to open 'Detailed Psychological Breakdown'"
+      ],
+      "expected_result": "A subscription screen is presented correctly.",
+      "notes": "Verifies that the paywall only exists for premium features, not basic charts."
+    },
+    {
+      "test_id": "T_H5_A",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Crisis modal trigger on severe inputs",
+      "steps": [
+        "Initiate mood log",
+        "Select the 'Severe Harm' tag",
+        "Tap Save"
+      ],
+      "expected_result": "A modal displaying emergency hotline numbers appears.",
+      "notes": "You can't write a test for 'self-awareness'. I replaced it with a test that checks if the crisis modal triggers correctly."
+    },
+    {
+      "test_id": "T_H5_B",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Crisis hotline link functionality",
+      "steps": [
+        "Trigger crisis modal",
+        "Tap the phone icon for the hotline"
+      ],
+      "expected_result": "The device phone dialer opens with the correct number pre-filled.",
+      "notes": "Added to ensure the safety resources are actually accessible."
+    },
+    {
+      "test_id": "T_H6_A",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Save custom text note to log",
+      "steps": [
+        "Initiate mood log",
+        "Type 'Rough meeting' into the notes field",
+        "Save and view history"
+      ],
+      "expected_result": "'Rough meeting' is displayed under the daily log entry.",
+      "notes": "Scrapped the AI's community test since the feature doesn't exist. Now it tests the custom note-saving functionality."
+    },
+    {
+      "test_id": "T_H6_B",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Verify character limit for notes",
+      "steps": [
+        "Type 600 characters into the note field",
+        "Tap Save"
+      ],
+      "expected_result": "The app truncates the note at 500 characters or displays a limit warning.",
+      "notes": "Added to test input constraints."
+    },
+    {
+      "test_id": "T_H7_A",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Verify premium padlock UI indicators",
+      "steps": [
+        "Log in as a free user",
+        "View the Dashboard modules"
+      ],
+      "expected_result": "A padlock icon is visible on all premium-tier features.",
+      "notes": "Replaced the 'value for money' survey test with a straightforward UI check for the premium padlocks."
+    },
+    {
+      "test_id": "T_H7_B",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Removal of padlocks after purchase",
+      "steps": [
+        "Log in as a Premium user",
+        "View the Dashboard modules"
+      ],
+      "expected_result": "No padlock icons are visible on any features.",
+      "notes": "Verifies UI state changes correctly based on account status."
+    },
+    {
+      "test_id": "T_H8_A",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Verify therapy promotional cooldown",
+      "steps": [
+        "Trigger the therapy promo modal",
+        "Dismiss the modal",
+        "Navigate through the app for 5 minutes"
+      ],
+      "expected_result": "The promotional modal does not reappear during the session.",
+      "notes": "Changed this to test the cooldown timer on the therapy ads, since 'helpful insights' isn't a testable action."
+    },
+    {
+      "test_id": "T_H8_B",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Accessing therapy promos manually",
+      "steps": [
+        "Navigate to Settings",
+        "Select 'MindDoc Therapy'"
+      ],
+      "expected_result": "The therapy information screen opens correctly.",
+      "notes": "Ensures features are still findable when not being pushed as ads."
+    },
+    {
+      "test_id": "T_H9_A",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Tooltip modal trigger for clinical terms",
+      "steps": [
+        "Open a clinical assessment",
+        "Tap the underlined word 'Cognitive'"
+      ],
+      "expected_result": "A popup modal displays a plain-language definition.",
+      "notes": "Updated the steps to test the new tooltip feature instead of the AI's fake coaching feature."
+    },
+    {
+      "test_id": "T_H9_B",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Tooltip dismissal",
+      "steps": [
+        "Open a tooltip modal",
+        "Tap outside the modal"
+      ],
+      "expected_result": "The modal closes and returns the user to the assessment.",
+      "notes": "Verifies basic modal UI interaction."
+    },
+    {
+      "test_id": "T_H10_A",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Verify 3-tap logging constraint",
+      "steps": [
+        "Start on Dashboard",
+        "Tap Log",
+        "Select Mood",
+        "Tap Save"
+      ],
+      "expected_result": "The entry is saved and the user is returned to the dashboard.",
+      "notes": "A test for 'user confidence' makes no sense. I changed it to count the exact number of taps needed to log a mood."
+    },
+    {
+      "test_id": "T_H10_B",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Logging speed with optional notes",
+      "steps": [
+        "Tap Log",
+        "Select Mood",
+        "Type a note",
+        "Tap Save"
+      ],
+      "expected_result": "The entry is saved correctly.",
+      "notes": "Verifies that the tap constraint only applies to the mandatory path."
     }
   ]
 }

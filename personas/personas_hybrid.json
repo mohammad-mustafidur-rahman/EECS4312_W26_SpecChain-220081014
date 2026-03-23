@@ -1,31 +1,76 @@
 {
   "personas": [
     {
-      "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
+      "id": "P_H1",
+      "name": "Global User Alex",
+      "description": "A non-native English speaker who needs the app's terminology accurately translated to log moods correctly.",
       "derived_from_group": "H1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Change the app interface language",
+        "Understand psychological prompts clearly"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Locked language settings",
+        "Poor machine translations"
       ],
-      "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+      "notes": "The AI made Alex a generic 'UX seeker'. I updated his profile to reflect the real issue: he needs the app in his native language."
+    },
+    {
+      "id": "P_H2",
+      "name": "Clinical Patient Mia",
+      "description": "A user in active therapy who uses the app to accurately report symptom patterns to her doctor.",
+      "derived_from_group": "H2",
+      "goals": [
+        "Export mood patterns for therapy",
+        "Write custom notes about triggers"
       ],
-      "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+      "pain_points": [
+        "Forgetting specific incidents between therapy sessions"
       ],
-      "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+      "notes": "The AI completely hallucinated a 'supportive community' feature. I deleted that and grounded Mia's goals in sharing data with her doctor, which is what the reviews actually say."
+    },
+    {
+      "id": "P_H3",
+      "name": "Privacy-Conscious Jake",
+      "description": "A skeptical user who demands total control over device data and clear value before paying for a subscription.",
+      "derived_from_group": "H3",
+      "goals": [
+        "Opt-out of third-party data sharing",
+        "Access baseline 14-day reports without paying"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "pain_points": [
+        "Hidden data tracking",
+        "14-day results locked behind paywalls"
+      ],
+      "notes": "Adjusted Jake's pain points to specifically target the third-party device ID sharing mentioned in the reviews."
+    },
+    {
+      "id": "P_H4",
+      "name": "Budget-Restricted Emily",
+      "description": "A user who wants professional-grade tracking but cannot afford expensive weekly therapy upsells.",
+      "derived_from_group": "H4",
+      "goals": [
+        "Track daily moods",
+        "Avoid aggressive premium marketing"
+      ],
+      "pain_points": [
+        "Sixty-five dollar per week therapy recommendations are unaffordable"
+      ],
+      "notes": "Emily isn't looking for 'unique features' like the AI thought; she's just on a tight budget. Fixed her persona to reflect that."
+    },
+    {
+      "id": "P_H5",
+      "name": "Crisis Tracker Sarah",
+      "description": "A user dealing with severe mental health episodes who needs the app to respond safely to extreme mood inputs.",
+      "derived_from_group": "H5",
+      "goals": [
+        "Log extreme emotional states",
+        "Receive appropriate crisis resources"
+      ],
+      "pain_points": [
+        "Dismissive automated responses to severe inputs"
+      ],
+      "notes": "Made Sarah's persona focus on the crisis response features (specifically the 'suicidal thought' review) since the AI missed the urgency."
     }
   ]
 }
