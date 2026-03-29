@@ -35,13 +35,11 @@ def main():
     run_script("src/08_metrics.py", ["auto"])
     run_script("src/08_metrics.py", ["hybrid"])
 
-    # STEP 4: Generate the Final Summary Table
-    print("\nGenerating metrics summary...")
-    run_script("src/09_summary.py")
+    
 
     print("\n-----------------------------------------")
     print("Pipeline execution complete!")
-    print("Check your metrics/ folder for the results.")
+    print("Check the metrics/ folder for the results.")
     print("-----------------------------------------\n")
 
 if __name__ == "__main__":
