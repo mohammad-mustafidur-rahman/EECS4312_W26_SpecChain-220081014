@@ -3,71 +3,74 @@
     {
       "id": "P1",
       "name": "Alex",
-      "description": "Alex is a user who values app functionality and user experience. They want an app that is easy to use and provides helpful insights.",
+      "description": "A user who values app functionality and user experience",
       "derived_from_group": "A1",
       "goals": [
         "Easy to use app",
+        "Accurate tracking",
         "Helpful insights"
       ],
       "pain_points": [
-        "Difficulty navigating app",
-        "Limited functionality"
+        "Language limitations",
+        "Lack of personalization"
       ]
     },
     {
       "id": "P2",
       "name": "Mia",
-      "description": "Mia is a user who has benefited from using the app for mental health. She values its effectiveness and impact on her well-being.",
+      "description": "A user who seeks effectiveness and impact on mental health",
       "derived_from_group": "A2",
       "goals": [
         "Improved mental health",
-        "Effective tracking and insights"
+        "Understanding of symptoms",
+        "Support for therapy"
       ],
       "pain_points": [
         "Limited free features",
-        "Occasional lack of engagement"
+        "Dependence on app for mental health support"
       ]
     },
     {
       "id": "P3",
       "name": "Jake",
-      "description": "Jake is a user who is concerned about the monetization and subscription model of the app. He wants to use the app without breaking the bank.",
+      "description": "A user concerned about monetization and subscription model",
       "derived_from_group": "A3",
       "goals": [
-        "Affordable subscription",
-        "Access to premium features"
+        "Affordable mental health support",
+        "Transparent pricing"
       ],
       "pain_points": [
         "Paywall limitations",
-        "Unclear benefits of premium subscription"
+        "Unclear benefits of paid version"
       ]
     },
     {
       "id": "P4",
       "name": "Samantha",
-      "description": "Samantha is a user who prioritizes data privacy and security. She wants to ensure her personal data is protected.",
+      "description": "A user prioritizing data privacy and security",
       "derived_from_group": "A4",
       "goals": [
         "Secure data storage",
-        "Transparent data usage"
+        "Private information protection"
       ],
       "pain_points": [
         "Data sharing concerns",
-        "Limited control over data"
+        "Limited anonymous usage"
       ]
     },
     {
       "id": "P5",
       "name": "Ethan",
-      "description": "Ethan is a user who uses the app for personal growth and self-awareness. He values the app's ability to help him reflect on his emotions and thoughts.",
+      "description": "A user focused on personal growth and self-awareness",
       "derived_from_group": "A5",
       "goals": [
-        "Improved self-awareness",
-        "Effective emotional tracking"
+        "Self-improvement",
+        "Emotional understanding",
+        "Personal growth"
       ],
       "pain_points": [
-        "Occasional lack of engagement",
-        "Limited depth of insights"
+        "Limited free resources",
+        "Difficulty in tracking progress"
       ]
     }
   ]

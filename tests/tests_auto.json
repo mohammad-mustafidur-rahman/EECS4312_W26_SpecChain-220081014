@@ -3,102 +3,103 @@
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR_auto_1",
-      "scenario": "New user navigates through the app",
+      "scenario": "User navigates through main features within 5 minutes",
       "steps": [
-        "Open the app for the first time",
-        "Navigate through the app's main features"
+        "Launch the app for the first time",
+        "Navigate through the main menu",
+        "Access and explore key features"
       ],
-      "expected_result": "The user can find and access the main features within 2 minutes."
+      "expected_result": "The user can navigate through the main features within 5 minutes."
     },
     {
       "test_id": "T_auto_2",
       "requirement_id": "FR_auto_2",
-      "scenario": "User views progress after a week",
+      "scenario": "Tracked symptoms and progress are accurately reflected",
       "steps": [
-        "Use the app for a week",
-        "View progress"
+        "Log symptoms for a week",
+        "Review progress after a week"
       ],
-      "expected_result": "The user receives at least 3 actionable insights and recommendations."
+      "expected_result": "The tracked symptoms and progress are accurately reflected."
     },
     {
       "test_id": "T_auto_3",
       "requirement_id": "FR_auto_3",
-      "scenario": "User views subscription options",
+      "scenario": "User identifies patterns or correlations in insights",
       "steps": [
-        "Open the app",
-        "View subscription options"
+        "Track symptoms for a month",
+        "View insights and analyze data"
       ],
-      "expected_result": "The user can choose from at least 2 affordable plans that offer access to premium features."
+      "expected_result": "The user can identify at least two patterns or correlations."
     },
     {
       "test_id": "T_auto_4",
       "requirement_id": "FR_auto_4",
-      "scenario": "User logs in and views data",
+      "scenario": "User finds relevant therapy resources and support",
       "steps": [
-        "Log in to the app",
-        "View data"
+        "Access the app's therapy resources",
+        "Search for relevant information and support"
       ],
-      "expected_result": "The user's data is encrypted and stored securely."
+      "expected_result": "The user finds relevant information and support for therapy."
     },
     {
       "test_id": "T_auto_5",
       "requirement_id": "FR_auto_5",
-      "scenario": "User uses emotional tracking feature",
+      "scenario": "User finds an affordable mental health support option",
       "steps": [
-        "Use the emotional tracking feature",
-        "Reflect on emotions"
+        "Explore the app's pricing options",
+        "Review available plans and features"
       ],
-      "expected_result": "The user can identify at least 2 patterns or trends in their emotions."
+      "expected_result": "The user can find an affordable option that meets their needs."
     },
     {
       "test_id": "T_auto_6",
       "requirement_id": "FR_auto_6",
-      "scenario": "New user completes tutorial",
+      "scenario": "User understands benefits and costs of paid versions",
       "steps": [
-        "Open the app for the first time",
-        "Complete tutorial"
+        "Review the pricing page",
+        "Compare features and costs of paid versions"
       ],
-      "expected_result": "The user can navigate the app without assistance."
+      "expected_result": "The user can understand the benefits and costs of paid versions."
     },
     {
       "test_id": "T_auto_7",
       "requirement_id": "FR_auto_7",
-      "scenario": "User views data usage settings",
+      "scenario": "User confirms data is encrypted and protected",
       "steps": [
-        "View data",
-        "Access data usage settings"
+        "Review the app's security policies",
+        "Verify data encryption and protection"
       ],
-      "expected_result": "The user can see how their data is being used and opt-out of data sharing."
+      "expected_result": "The user can confirm their data is encrypted and protected."
     },
     {
       "test_id": "T_auto_8",
       "requirement_id": "FR_auto_8",
-      "scenario": "User views app features",
+      "scenario": "User's data is not shared with third parties",
       "steps": [
-        "Open the app",
-        "View app features"
+        "Use the app and generate data",
+        "Verify data sharing policies"
       ],
-      "expected_result": "The user can access at least 3 free features and see the additional features available in the premium version."
+      "expected_result": "The user's data is not shared with third parties."
     },
     {
       "test_id": "T_auto_9",
       "requirement_id": "FR_auto_9",
-      "scenario": "User views app updates",
+      "scenario": "User finds relevant resources and tools for personal growth",
       "steps": [
-        "Use the app for a month",
-        "View app updates"
+        "Access the app's resources",
+        "Search for relevant information and tools"
       ],
-      "expected_result": "The user sees at least 2 new features or updates added in the past month."
+      "expected_result": "The user finds relevant resources and tools for personal growth and self-awareness."
     },
     {
       "test_id": "T_auto_10",
       "requirement_id": "FR_auto_10",
-      "scenario": "User views progress after 3 months",
+      "scenario": "User identifies areas for improvement",
       "steps": [
-        "Use the app for 3 months",
-        "View progress"
+        "Track progress for a month",
+        "Review progress and analyze data"
       ],
-      "expected_result": "The user can see a summary of their progress and reflect on their personal growth over time."
+      "expected_result": "The user can identify at least one area for improvement."
     }
   ]
 }
